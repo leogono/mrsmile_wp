@@ -1,0 +1,20 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,900,400italic);
+body#tinymce.wp-editor {
+  color: #34495e;
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	line-height: 1.6em;
+	max-width: 620px;
+}
+body#tinymce.wp-editor h2 {
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 1.4em;
+	margin-bottom: 15px;
+}
+body#tinymce.wp-editor h3 {
+	font-size: 26px;
+	line-height: 1.6em;
+	margin-bottom: 15px;
+	font-weight: 400;
+}

@@ -1,0 +1,427 @@
+/*Custom CSS*/
+.wf-loading * {
+	color: transparent;
+}
+.custom {
+	background: #1C1D1F;
+	color: #34495e;
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	/*font-family: 'Lily Script One', cursive;*/
+	font-size: 15px;
+	line-height: 1.6em;
+}
+.custom p {
+	margin-bottom: 10px;
+}
+#page {
+	position: relative;
+	width: 960px;
+	margin: 0 auto;
+}
+.wrap, .site-wrap {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+#masthead {
+	margin-bottom: 20px;	
+}
+#feat-img {
+	max-height: 430px;
+	overflow: hidden;
+}
+#feat-img .metaslider{
+	max-width: 100% !important;
+	position: relative;
+}
+#feat-img .metaslider .caption-wrap {
+	position: absolute;
+	bottom: 0;
+	width: 460px;
+	left: 50%;
+	margin-left: -460px;
+}
+#feat-img .flexslider .slides {
+	overflow: hidden;
+}
+#feat-img .flexslider .slides li {
+	overflow: hidden;
+}
+.home #feat-img {
+	max-height: 650px;
+}
+#feat-img img {
+	width: 100%
+}
+
+/*Header Styles*/
+.site-branding {
+	float: left;
+	width: 45%;
+}
+#site-navigation {
+	float: right;
+	width: 45%;
+	clear: none;
+	margin-top: 80px;
+}
+#site-navigation ul li a{
+	color: #164f73;
+	padding: 5px 10px;
+	margin-right: 5px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+#site-navigation ul li a:hover,
+#site-navigation ul li.current-menu-item > a,
+#site-navigation ul li.current_page_parent > a {
+	color: #fff;
+	background: #ee273b;
+}
+.site-title a {
+	background: url('../img/sprite-01.png') no-repeat 0 -173px;
+	width: 383px;
+	height: 121px;
+	display: block;
+	margin-top: 35px;
+}
+/*Main Body Style*/
+#main {
+	padding-top: 20px;
+}
+#primary {
+	width: 620px;
+	float: left;
+}
+#secondary {
+	width: 300px;
+	float: right;
+}
+
+/*Content Style*/
+.page-title {
+	background: #164f73;
+	color: #f2ebc4;
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 1.3em;
+	margin-bottom: 15px;
+	padding: 10px;
+	-webkit-border-radius: 6px 0 0 6px;
+	-moz-border-radius: 6px 0 0 6px;
+	border-radius: 6px 0 0 6px;
+}
+#content .entry-title {
+	color: #164f73;
+	font-size: 24px;
+	font-weight: 900;
+	line-height: 1.4em;
+}
+#content .entry-title a {
+	color: #164f73;
+	text-decoration: none;
+}
+#content .entry-title a:hover {
+	color: #EE273B;
+}
+.entry-meta, .entry-meta a {
+	font-size: 14px;
+	font-weight: 400;
+	color: #f28379;
+}
+.entry-meta a:hover {
+	color: #EE273B;
+}
+.entry-content h2 {
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 1.4em;
+	margin-bottom: 15px;
+}
+.entry-content h3 {
+	font-size: 26px;
+	color: #000;
+	line-height: 1.6em;
+	margin-bottom: 15px;
+}
+#comments .comments-title {
+	font-size: 20px;
+	line-height: 1.3em;
+	color: #f22738;
+}
+#comments ol {
+	list-style: none;
+	margin: 0;
+}
+a.more-tag {
+	background: #f22738;
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 5px 10px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+/*Contact Form 7*/
+.wpcf7 .wpcf7-text, .wpcf7 .wpcf7-textarea {
+	padding: 10px;
+	width: 400px !important;
+	border: 2px solid #3aa1bf;
+}
+.wpcf7 .wpcf7-submit {
+	font-size: 18px;
+	padding: 15px 20px 10px;
+	text-transform: uppercase;
+}
+/*Sidebar styles*/
+#secondary .widget-title {
+	font-size: 24px;
+	font-weight: 900;
+	color: #fff;
+	background: #f22738;
+	-webkit-border-radius: 0 6px 0 0;
+	-moz-border-radius: 0 6px 0 0;
+	border-radius: 0 6px 0 0;
+	padding: 10px;
+}
+#secondary .widget .textwidget {
+	background: #ebebeb;
+	padding: 10px;
+	-webkit-border-radius: 0 0 6px 0;
+	-moz-border-radius: 0 0 6px 0;
+	border-radius: 0 0 6px 0;
+}
+#secondary .widget_categories .widget-title  {
+	display: none;
+}
+#secondary .widget_categories ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#secondary .widget_categories ul li {
+	background: #f2385a url('../img/sprite-01.png') no-repeat -347px -401px;
+	color: #111;
+	font-size: 14px;
+	font-weight: 400;
+	padding-right: 10px;
+	margin-bottom: 10px;
+	clear: both;
+	-webkit-border-radius: 0 6px 6px 0;
+	-moz-border-radius: 0 6px 6px 0;
+	border-radius: 0 6px 6px 0;
+	float: left;
+}
+#secondary .widget_categories ul li a {
+	color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 15px 5px 15px 5px;
+	margin-left: 40px;
+	border-left: 1px solid #fff;
+	/*Inline Block*/
+	display: inline-block;
+	vertical-align: baseline;
+	zoom: 1;
+	*display: inline;
+	*vertical-align: auto;
+}
+#secondary .widget_categories ul li:nth-child(5n+2) {
+	background-color: #ff3f34;
+}
+#secondary .widget_categories ul li:nth-child(5n+3) {
+	background-color: #f5a503;
+}
+#secondary .widget_categories ul li:nth-child(5n+4) {
+	background-color: #56d9cd;
+}
+#secondary .widget_categories ul li:nth-child(5n+5) {
+	background-color: #3aa1bf;
+}
+#secondary .widget_categories ul li:hover {
+	background-color: #f22738;
+}
+/*Signup Forms*/
+#mc_embed_signup, #mc_embed_signup_footer {
+	padding: 0 !important;
+}
+#mc_embed_signup input.email,
+#mc_embed_signup_footer input.email {
+	border: none;
+	padding: 10px;
+	float: right;
+	width: 75%;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.email_w {
+	background: #f28379 url('../img/sprite-01.png') no-repeat -345px -365px;
+	margin-bottom: 5px;
+	padding: 1px;
+	overflow: hidden;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+#mc_embed_signup_footer .email_w {
+	width: 260px;
+}
+#mc_embed_signup .mc-embedded-subscribe {
+
+}
+/*Footer Style*/
+#colophon {
+	background: #ecf0f1;
+	color: #898989;
+	margin-top: 40px;
+}
+.site-info {
+	font-size: 13px;
+	line-height: 1.3em;
+	opacity: 0.6;
+}
+.site-info p {
+	margin-bottom: 0;
+}
+#footer-left {
+	width: 460px;
+	float: left;
+}
+#footer-right {
+	width: 460px;
+	float: right;
+	background: #164f73;
+	color: #fff;
+	height: 100%;
+	margin-top: -40px;
+}
+#footer-left .widget {
+	padding: 20px 0 10px;
+}
+#footer-right .widget {
+	padding: 20px;
+}
+#footer-widgets .widget-title {
+	font-size: 24px;
+	line-height: 1.3em;
+	font-weight: 900;
+}
+#footer-left .widget-title {
+	color: #f28379;
+}
+
+/*WooCommerce*/
+
+.custom .woocommerce #payment div.payment_box,
+.custom .woocommerce-page #payment div.payment_box {
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+}
+.custom .woocommerce-info {
+	color: #fff;
+}
+.custom .woocommerce-info a {
+	color: #164F73;
+}
+
+/* Helper classes */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}

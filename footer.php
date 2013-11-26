@@ -10,7 +10,7 @@
 		</div><!-- #main .wrap -->
 	</div><!-- #main -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
+	<footer id="colophon" class="site-footer wrap" role="contentinfo">
 		<div class="wrap">
 			<div class="site-info">
 				<p><a href="<?php bloginfo( 'url' ); ?>">Mr.Smile</a> <?php echo date('Y'); ?> All rights reserved.</p>

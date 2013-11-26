@@ -21,7 +21,7 @@
 <body <?php body_class('custom'); ?>>
 <div id="page" class="hfeed site">
 	<?php do_action( 'before' ); ?>
-	<header id="masthead" class="site-header" role="banner">
+	<header id="masthead" class="site-header wrap" role="banner">
 		<div class="site-wrap">
 			<div class="site-branding">
 				<h1 class="site-title"><a class="ir" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
@@ -36,7 +36,7 @@
 		
 	</header><!-- #masthead -->
 
-<div id="feat-img">
+<div id="feat-img" class="wrap">
 	<?php if (is_front_page()) {
 		echo do_shortcode("[metaslider id=37]");
 	} else {

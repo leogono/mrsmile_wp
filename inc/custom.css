@@ -86,6 +86,42 @@
 	display: block;
 	margin-top: 35px;
 }
+/*Home style*/
+.row-box {
+	overflow: hidden;
+}
+.row-box .box-col {
+	max-height: 250px;
+	position: relative;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.row-box .box-col {
+	display: block;
+}
+.row-box .box-col img {
+	width: 100%;
+}
+.row-box .box-col .box-caption {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: 0 15px;
+	padding: 10px 5% 15px;
+	text-align: right;
+	display: block;
+	background: url('../img/black-trans.png');
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 300;
+	line-height: 1.4em;
+	color: #fff;
+}
+.content-box {
+	background: #fff;
+	padding: 20px;
+	min-height: 210px;
+}
 /*Main Body Style*/
 #main {
 	padding-top: 20px;
@@ -93,6 +129,10 @@
 #primary {
 	width: 620px;
 	float: left;
+}
+#primary.front-page {
+	width: 100%;
+	float: none;
 }
 #secondary {
 	width: 300px;
@@ -274,9 +314,11 @@ a.more-tag {
 }
 /*Footer Style*/
 #colophon {
-	background: #ecf0f1;
-	color: #898989;
+	border-top: 5px solid #898989;
+	color: #cccccc;
 	margin-top: 40px;
+	text-align: center;
+	padding: 20px 0;
 }
 .site-info {
 	font-size: 13px;
@@ -285,6 +327,9 @@ a.more-tag {
 }
 .site-info p {
 	margin-bottom: 0;
+}
+.site-info a {
+	color: #fff;
 }
 #footer-left {
 	width: 460px;
@@ -327,6 +372,199 @@ a.more-tag {
 	color: #164F73;
 }
 
+/*Grid*/
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.row:before,
+.row:after {
+  content: " ";
+  /* 1 */
+
+  display: table;
+  /* 2 */
+
+}
+.row:after {
+  clear: both;
+}
+.row:before,
+.row:after {
+  content: " ";
+  /* 1 */
+
+  display: table;
+  /* 2 */
+
+}
+.row:after {
+  clear: both;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11 {
+  float: left;
+}
+.col-lg-12 {
+  width: 100%;
+}
+.col-lg-11 {
+  width: 91.66666666666666%;
+}
+.col-lg-10 {
+  width: 83.33333333333334%;
+}
+.col-lg-9 {
+  width: 75%;
+}
+.col-lg-8 {
+  width: 66.66666666666666%;
+}
+.col-lg-7 {
+  width: 58.333333333333336%;
+}
+.col-lg-6 {
+  width: 50%;
+}
+.col-lg-5 {
+  width: 41.66666666666667%;
+}
+.col-lg-4 {
+  width: 33.33333333333333%;
+}
+.col-lg-3 {
+  width: 25%;
+}
+.col-lg-2 {
+  width: 16.666666666666664%;
+}
+.col-lg-1 {
+  width: 8.333333333333332%;
+}
+.col-lg-pull-12 {
+  right: 100%;
+}
+.col-lg-pull-11 {
+  right: 91.66666666666666%;
+}
+.col-lg-pull-10 {
+  right: 83.33333333333334%;
+}
+.col-lg-pull-9 {
+  right: 75%;
+}
+.col-lg-pull-8 {
+  right: 66.66666666666666%;
+}
+.col-lg-pull-7 {
+  right: 58.333333333333336%;
+}
+.col-lg-pull-6 {
+  right: 50%;
+}
+.col-lg-pull-5 {
+  right: 41.66666666666667%;
+}
+.col-lg-pull-4 {
+  right: 33.33333333333333%;
+}
+.col-lg-pull-3 {
+  right: 25%;
+}
+.col-lg-pull-2 {
+  right: 16.666666666666664%;
+}
+.col-lg-pull-1 {
+  right: 8.333333333333332%;
+}
+.col-lg-pull-0 {
+  right: 0%;
+}
+.col-lg-push-12 {
+  left: 100%;
+}
+.col-lg-push-11 {
+  left: 91.66666666666666%;
+}
+.col-lg-push-10 {
+  left: 83.33333333333334%;
+}
+.col-lg-push-9 {
+  left: 75%;
+}
+.col-lg-push-8 {
+  left: 66.66666666666666%;
+}
+.col-lg-push-7 {
+  left: 58.333333333333336%;
+}
+.col-lg-push-6 {
+  left: 50%;
+}
+.col-lg-push-5 {
+  left: 41.66666666666667%;
+}
+.col-lg-push-4 {
+  left: 33.33333333333333%;
+}
+.col-lg-push-3 {
+  left: 25%;
+}
+.col-lg-push-2 {
+  left: 16.666666666666664%;
+}
+.col-lg-push-1 {
+  left: 8.333333333333332%;
+}
+.col-lg-push-0 {
+  left: 0%;
+}
+.col-lg-offset-12 {
+  margin-left: 100%;
+}
+.col-lg-offset-11 {
+  margin-left: 91.66666666666666%;
+}
+.col-lg-offset-10 {
+  margin-left: 83.33333333333334%;
+}
+.col-lg-offset-9 {
+  margin-left: 75%;
+}
+.col-lg-offset-8 {
+  margin-left: 66.66666666666666%;
+}
+.col-lg-offset-7 {
+  margin-left: 58.333333333333336%;
+}
+.col-lg-offset-6 {
+  margin-left: 50%;
+}
+.col-lg-offset-5 {
+  margin-left: 41.66666666666667%;
+}
+.col-lg-offset-4 {
+  margin-left: 33.33333333333333%;
+}
+.col-lg-offset-3 {
+  margin-left: 25%;
+}
+.col-lg-offset-2 {
+  margin-left: 16.666666666666664%;
+}
+.col-lg-offset-1 {
+  margin-left: 8.333333333333332%;
+}
+.col-lg-offset-0 {
+  margin-left: 0%;
+}
 /* Helper classes */
 
 /*
@@ -395,33 +633,29 @@ a.more-tag {
     visibility: hidden;
 }
 
-/*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-
 .clearfix:before,
 .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
+  content: " ";
+  /* 1 */
 
+  display: table;
+  /* 2 */
+
+}
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
-
-/*
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-
-.clearfix {
-    *zoom: 1;
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pull-right {
+  float: right !important;
+}
+.pull-left {
+  float: left !important;
+}
+.hide {
+  display: none !important;
 }

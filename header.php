@@ -32,6 +32,9 @@
 
 				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 			</nav><!-- #site-navigation -->
+			<div class="connect-sm">
+				<p>Connect with us: <a href="mailto:mbcruz77@gmail.com"><i class="fa fa-envelope"></i></a> <a href="https://twitter.com/mbcruz1977"><i class="fa fa-twitter"></i></a> <a href="http://au.linkedin.com/in/mbcruz1977/"><i class="fa fa-linkedin"></i></a> <a href="http://instagram.com/mbcruz1977"><i class="fa fa-instagram"></i></a></p>
+			</div>
 		</div>
 		
 	</header><!-- #masthead -->

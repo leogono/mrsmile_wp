@@ -40,6 +40,7 @@ function mrsmile_wp_setup() {
 	 * @link http://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
 	 */
 	add_theme_support( 'post-thumbnails' );
+	add_image_size('home-box', 295, 250, true );
 
 	/**
 	 * This theme uses wp_nav_menu() in one location.
@@ -162,6 +163,10 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+// Load ACF
+
+require get_template_directory() . '/inc/acf-activate.php';
 
 //add WooCommerce Support
 add_theme_support( 'woocommerce' );

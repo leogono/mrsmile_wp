@@ -100,6 +100,7 @@ add_action( 'widgets_init', 'mrsmile_wp_widgets_init' );
  * Enqueue scripts and styles
  */
 function mrsmile_wp_scripts() {
+	wp_enqueue_style('font-awesome', '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css' );
 	wp_enqueue_style( 'mrsmile_wp-style', get_stylesheet_uri() );
 
 	wp_enqueue_style( 'mrsmile-custom', get_template_directory_uri() . '/inc/custom.css', array(), '20130702', $media = 'all' );

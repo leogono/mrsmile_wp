@@ -83,7 +83,7 @@ if(function_exists("register_field_group"))
 						'type' => 'image',
 						'instructions' => 'Please update images with more than 295px by 250px dimensions.',
 						'column_width' => '',
-						'save_format' => 'object',
+						'save_format' => 'ID',
 						'preview_size' => 'home-box',
 						'library' => 'uploadedTo',
 					),

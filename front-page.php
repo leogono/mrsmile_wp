@@ -29,7 +29,13 @@ get_header(); ?>
 					}
 					else { ?>
 						<a href="<?php the_sub_field('box_url'); ?>">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/sample-box.jpg" alt="">
+							<?php
+							//Variables
+							$attachment_id = get_sub_field('box_image');
+							$size = "home-box";
+							$image = wp_get_attachment_image_src( $attachment_id, $size );
+							?>
+							<img src="<?php echo $image[0]; ?>" alt="">
 							<span class="box-caption"><?php the_sub_field('box_title'); ?></span>
 						</a>
 					<?php } ?>

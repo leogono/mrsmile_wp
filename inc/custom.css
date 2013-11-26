@@ -116,9 +116,12 @@
 	position: relative;
 	margin-bottom: 20px;
 	overflow: hidden;
+	height: 250px;
 }
-.row-box .box-col {
+.row-box .box-col a {
 	display: block;
+	background: #fff;
+	height: 249px;
 }
 .row-box .box-col img {
 	width: 100%;

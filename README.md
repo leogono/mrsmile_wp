@@ -7,6 +7,9 @@ Features
 ---------------
 
 Meta Slider
+
 WooCommerce
+
 Contact Form7
+
 Selectivizr

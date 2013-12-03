@@ -32,7 +32,16 @@ get_header(); ?>
 							<?php
 							//Variables
 							$attachment_id = get_sub_field('box_image');
-							$size = "home-box";
+							if(get_sub_field('box_width') == 'col-lg-8') {
+								$size = "home-box2";
+							}
+							elseif(get_sub_field('box_width') == 'col-lg-4') {
+								$size = "home-box";
+							}
+							else {
+								$size = "full";
+							}
+							
 							$image = wp_get_attachment_image_src( $attachment_id, $size );
 							?>
 							<img src="<?php echo $image[0]; ?>" alt="">

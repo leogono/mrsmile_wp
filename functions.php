@@ -41,6 +41,7 @@ function mrsmile_wp_setup() {
 	 */
 	add_theme_support( 'post-thumbnails' );
 	add_image_size('home-box', 295, 250, true );
+	add_image_size('home-box2', 617, 249, true );
 
 	/**
 	 * This theme uses wp_nav_menu() in one location.

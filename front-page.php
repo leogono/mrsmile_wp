@@ -21,9 +21,28 @@ get_header(); ?>
 					<?php if(get_sub_field('content_box') == '1') {
 						?>
 						<div class="content-box">
-							<?php the_sub_field('content'); ?>
+							<div class="inside-content">
+								<?php the_sub_field('content'); ?>
+							</div>
+							<div class="image-bg">
+								<?php
+								//Variables
+								$attachment_id = get_sub_field('box_image');
+								if(get_sub_field('box_width') == 'col-lg-8') {
+									$size = "home-box2";
+								}
+								elseif(get_sub_field('box_width') == 'col-lg-4') {
+									$size = "home-box";
+								}
+								else {
+									$size = "full";
+								}
+								
+								$image = wp_get_attachment_image_src( $attachment_id, $size );
+								?>
+								<img src="<?php echo $image[0]; ?>" alt="">
+							</div>
 						</div>
-
 
 						<?php
 					}

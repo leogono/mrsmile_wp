@@ -75,45 +75,6 @@ get_header(); ?>
 			</div>
 		 
 		<?php endif; ?>
-			<!-- <div class="row-box row">
-
-				<div class="box-col col-lg-4">
-					<a href="#">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/sample-box.jpg" alt="">
-						<span class="box-caption">Gallery</span>
-					</a>
-				</div>
-				<div class="box-col col-lg-4">
-					<a href="#">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/sample-box.jpg" alt="">
-						<span class="box-caption">Gallery</span>
-					</a>
-				</div>
-				<div class="box-col col-lg-4">
-					<a href="#">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/sample-box.jpg" alt="">
-						<span class="box-caption">Gallery</span>
-					</a>
-				</div>
-				<div class="box-col col-lg-4">
-					<a href="#">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/sample-box.jpg" alt="">
-						<span class="box-caption">Gallery</span>
-					</a>
-				</div>
-				<div class="box-col col-lg-4">
-					<a href="#">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/sample-box.jpg" alt="">
-						<span class="box-caption">Gallery</span>
-					</a>
-				</div>
-				<div class="box-col col-lg-4">
-					<a href="#">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/sample-box.jpg" alt="">
-						<span class="box-caption">Gallery</span>
-					</a>
-				</div>
-			</div> -->
 
 		</div><!-- #content -->
 	</div><!-- #primary -->

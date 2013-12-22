@@ -26,7 +26,9 @@
 			<div class="site-branding">
 				<h1 class="site-title"><a class="ir" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			</div>
-
+			<div class="head-search">
+				<?php get_template_part( 'searchform', 'header' ); ?>
+			</div>
 			<nav id="site-navigation" class="navigation-main" role="navigation">
 				<div class="screen-reader-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'mrsmile_wp' ); ?>"><?php _e( 'Skip to content', 'mrsmile_wp' ); ?></a></div>
 
